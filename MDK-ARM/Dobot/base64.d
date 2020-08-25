@@ -1,0 +1,13 @@
+dobot\base64.o: ..\Src\mbedtls\base64.c
+dobot\base64.o: ../Inc/mbedtls/config.h
+dobot\base64.o: ../Inc/mbedtls/check_config.h
+dobot\base64.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\base64.o: ../Inc/mbedtls/base64.h
+dobot\base64.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\base64.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\base64.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\base64.o: ../Inc/mbedtls/platform.h
+dobot\base64.o: ../Inc/mbedtls/platform_time.h
+dobot\base64.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\base64.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\base64.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

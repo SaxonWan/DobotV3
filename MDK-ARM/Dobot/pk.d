@@ -1,0 +1,17 @@
+dobot\pk.o: ..\Src\mbedtls\pk.c
+dobot\pk.o: ../Inc/mbedtls/config.h
+dobot\pk.o: ../Inc/mbedtls/check_config.h
+dobot\pk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\pk.o: ../Inc/mbedtls/pk.h
+dobot\pk.o: ../Inc/mbedtls/md.h
+dobot\pk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\pk.o: ../Inc/mbedtls/rsa.h
+dobot\pk.o: ../Inc/mbedtls/bignum.h
+dobot\pk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\pk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\pk.o: ../Inc/mbedtls/ecp.h
+dobot\pk.o: ../Inc/mbedtls/ecdsa.h
+dobot\pk.o: ../Inc/mbedtls/pk_internal.h
+dobot\pk.o: ../Inc/mbedtls/platform_util.h
+dobot\pk.o: ../Inc/mbedtls/platform_time.h
+dobot\pk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h

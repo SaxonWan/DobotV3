@@ -1,0 +1,16 @@
+dobot\aes.o: ..\Src\mbedtls\aes.c
+dobot\aes.o: ../Inc/mbedtls/config.h
+dobot\aes.o: ../Inc/mbedtls/check_config.h
+dobot\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\aes.o: ../Inc/mbedtls/aes.h
+dobot\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\aes.o: ../Inc/mbedtls/platform.h
+dobot\aes.o: ../Inc/mbedtls/platform_time.h
+dobot\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\aes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+dobot\aes.o: ../Inc/mbedtls/platform_util.h
+dobot\aes.o: ../Inc/mbedtls/padlock.h
+dobot\aes.o: ../Inc/mbedtls/aesni.h

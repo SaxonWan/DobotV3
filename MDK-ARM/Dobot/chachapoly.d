@@ -1,0 +1,16 @@
+dobot\chachapoly.o: ..\Src\mbedtls\chachapoly.c
+dobot\chachapoly.o: ../Inc/mbedtls/config.h
+dobot\chachapoly.o: ../Inc/mbedtls/check_config.h
+dobot\chachapoly.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\chachapoly.o: ../Inc/mbedtls/chachapoly.h
+dobot\chachapoly.o: ../Inc/mbedtls/poly1305.h
+dobot\chachapoly.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\chachapoly.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\chachapoly.o: ../Inc/mbedtls/chacha20.h
+dobot\chachapoly.o: ../Inc/mbedtls/platform_util.h
+dobot\chachapoly.o: ../Inc/mbedtls/platform_time.h
+dobot\chachapoly.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\chachapoly.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\chachapoly.o: ../Inc/mbedtls/platform.h
+dobot\chachapoly.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\chachapoly.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

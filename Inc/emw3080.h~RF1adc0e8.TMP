@@ -1,0 +1,41 @@
+#ifndef __EMW3080_H
+#define __EMW3080_H
+
+#include "main.h"
+#include "configuration.h"
+#include "usart.h"
+
+#define AT                   	"AT\r"
+#define AT_OK                 	"OK"
+#define AT_REBOOT             	"AT+REBOOT\r"
+#define AT_ECHO_OFF           	"AT+UARTE=OFF\r"
+#define AT_MSG_ON            	"AT+WEVENT=ON\r"
+
+#define AT_WIFI_START         	"AT+WJAP=%s,%s\r"
+#define AT_WIFI_START_SUCC    	"+WEVENT:STATION_UP"
+#define AT_WIFI_CLOSE         	"AT+WJAPQ\r"
+#define AT_WIFI_CLOSE_SUCC    	"+WEVENT:STATION_DOWN"
+
+#define AT_MQTT_AUTH         	"AT+MQTTAUTH=%s&%s,%s\r"
+#define AT_MQTT_CID           	"AT+MQTTCID=%s|securemode=3\\,signmethod=hmacsha1\\,timestamp=%s|\r"
+#define AT_MQTT_SOCK          	"AT+MQTTSOCK=%s.iot-as-mqtt.cn-shanghai.aliyuncs.com,1883\r"
+#define AT_MQTT_CV_OFF        	"AT+MQTTCAVERIFY=OFF,OFF\r"
+#define AT_MQTT_SSL_OFF       	"AT+MQTTSSL=OFF\r"
+#define AT_MQTT_RECONN_ON     	"AT+MQTTRECONN=ON\r"
+#define AT_MQTT_AUTOSTART_OFF 	"AT+MQTTAUTOSTART=OFF\r"
+#define AT_MQTT_ALIVE         	"AT+MQTTKEEPALIVE=500\r"
+#define AT_MQTT_START         	"AT+MQTTSTART\r"
+#define AT_MQTT_START_SUCC    	"+MQTTEVENT:CONNECT,SUCCESS"
+#define AT_MQTT_PUB_SET       	"AT+MQTTPUB=/sys/%s/%s/thing/event/property/post,1\r"
+#define AT_MQTT_PUB_DATA      	"AT+MQTTSEND=%d\r"
+#define JSON_DATA_PACK        	"{\"id\":\"100\",\"version\":\"1.0\",\"method\":\"thing.event.property.post\",\"params\":{\"Temperature\":%d.%d,\"Humidity\":%d.%d,\"Pressure\":%d.%d}}\r"
+#define AT_MQTT_PUB_DATA_SUCC 	"+MQTTEVENT:PUBLISH,SUCCESS"
+#define AT_MQTT_CLOSE         	"AT+MQTTCLOSE\r"
+#define AT_MQTT_CLOSE_SUCC    	"+MQTTEVENT:CLOSE,SUCCESS"
+
+#define DEFAULT_TIMEOUT			5
+
+
+bool emw3080_init(void);
+
+#endif

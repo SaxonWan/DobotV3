@@ -1,0 +1,13 @@
+dobot\arc4.o: ..\Src\mbedtls\arc4.c
+dobot\arc4.o: ../Inc/mbedtls/config.h
+dobot\arc4.o: ../Inc/mbedtls/check_config.h
+dobot\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\arc4.o: ../Inc/mbedtls/arc4.h
+dobot\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\arc4.o: ../Inc/mbedtls/platform_util.h
+dobot\arc4.o: ../Inc/mbedtls/platform_time.h
+dobot\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\arc4.o: ../Inc/mbedtls/platform.h
+dobot\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\arc4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

@@ -1,0 +1,11 @@
+dobot\command.o: ..\Src\command.cpp
+dobot\command.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\command.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\command.o: ..\Src\command.h
+dobot\command.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\command.o: ..\Src\complatform\../ComPlatform/Protocol.h
+dobot\command.o: ..\Src\complatform\../ComPlatform/Message.h
+dobot\command.o: ..\Src\complatform\../ComPlatform/ProtocolDef.h
+dobot\command.o: ..\Src\complatform\../ComPlatform/RingBuffer.h
+dobot\command.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+dobot\command.o: ..\Src\complatform\../ComPlatform/ProtocolID.h

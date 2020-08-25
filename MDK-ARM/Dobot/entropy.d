@@ -1,0 +1,16 @@
+dobot\entropy.o: ..\Src\mbedtls\entropy.c
+dobot\entropy.o: ../Inc/mbedtls/config.h
+dobot\entropy.o: ../Inc/mbedtls/check_config.h
+dobot\entropy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\entropy.o: ../Inc/mbedtls/entropy.h
+dobot\entropy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\entropy.o: ../Inc/mbedtls/sha512.h
+dobot\entropy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\entropy.o: ../Inc/mbedtls/entropy_poll.h
+dobot\entropy.o: ../Inc/mbedtls/platform_util.h
+dobot\entropy.o: ../Inc/mbedtls/platform_time.h
+dobot\entropy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\entropy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\entropy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\entropy.o: ../Inc/mbedtls/platform.h
+dobot\entropy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

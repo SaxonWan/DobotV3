@@ -1,0 +1,14 @@
+dobot\poly1305.o: ..\Src\mbedtls\poly1305.c
+dobot\poly1305.o: ../Inc/mbedtls/config.h
+dobot\poly1305.o: ../Inc/mbedtls/check_config.h
+dobot\poly1305.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\poly1305.o: ../Inc/mbedtls/poly1305.h
+dobot\poly1305.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\poly1305.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\poly1305.o: ../Inc/mbedtls/platform_util.h
+dobot\poly1305.o: ../Inc/mbedtls/platform_time.h
+dobot\poly1305.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\poly1305.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\poly1305.o: ../Inc/mbedtls/platform.h
+dobot\poly1305.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\poly1305.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

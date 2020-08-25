@@ -1,0 +1,14 @@
+dobot\ecdh.o: ..\Src\mbedtls\ecdh.c
+dobot\ecdh.o: ../Inc/mbedtls/config.h
+dobot\ecdh.o: ../Inc/mbedtls/check_config.h
+dobot\ecdh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\ecdh.o: ../Inc/mbedtls/ecdh.h
+dobot\ecdh.o: ../Inc/mbedtls/ecp.h
+dobot\ecdh.o: ../Inc/mbedtls/bignum.h
+dobot\ecdh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\ecdh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\ecdh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\ecdh.o: ../Inc/mbedtls/platform_util.h
+dobot\ecdh.o: ../Inc/mbedtls/platform_time.h
+dobot\ecdh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\ecdh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

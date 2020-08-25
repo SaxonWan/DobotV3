@@ -1,0 +1,15 @@
+dobot\asn1write.o: ..\Src\mbedtls\asn1write.c
+dobot\asn1write.o: ../Inc/mbedtls/config.h
+dobot\asn1write.o: ../Inc/mbedtls/check_config.h
+dobot\asn1write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\asn1write.o: ../Inc/mbedtls/asn1write.h
+dobot\asn1write.o: ../Inc/mbedtls/asn1.h
+dobot\asn1write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\asn1write.o: ../Inc/mbedtls/bignum.h
+dobot\asn1write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\asn1write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\asn1write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\asn1write.o: ../Inc/mbedtls/platform.h
+dobot\asn1write.o: ../Inc/mbedtls/platform_time.h
+dobot\asn1write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\asn1write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

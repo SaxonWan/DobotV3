@@ -1,0 +1,14 @@
+dobot\ripemd160.o: ..\Src\mbedtls\ripemd160.c
+dobot\ripemd160.o: ../Inc/mbedtls/config.h
+dobot\ripemd160.o: ../Inc/mbedtls/check_config.h
+dobot\ripemd160.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\ripemd160.o: ../Inc/mbedtls/ripemd160.h
+dobot\ripemd160.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\ripemd160.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\ripemd160.o: ../Inc/mbedtls/platform_util.h
+dobot\ripemd160.o: ../Inc/mbedtls/platform_time.h
+dobot\ripemd160.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\ripemd160.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\ripemd160.o: ../Inc/mbedtls/platform.h
+dobot\ripemd160.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\ripemd160.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

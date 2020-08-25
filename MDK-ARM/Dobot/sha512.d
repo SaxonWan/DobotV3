@@ -1,0 +1,14 @@
+dobot\sha512.o: ..\Src\mbedtls\sha512.c
+dobot\sha512.o: ../Inc/mbedtls/config.h
+dobot\sha512.o: ../Inc/mbedtls/check_config.h
+dobot\sha512.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\sha512.o: ../Inc/mbedtls/sha512.h
+dobot\sha512.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\sha512.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\sha512.o: ../Inc/mbedtls/platform_util.h
+dobot\sha512.o: ../Inc/mbedtls/platform_time.h
+dobot\sha512.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\sha512.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\sha512.o: ../Inc/mbedtls/platform.h
+dobot\sha512.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\sha512.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

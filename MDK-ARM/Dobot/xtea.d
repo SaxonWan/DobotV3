@@ -1,0 +1,14 @@
+dobot\xtea.o: ..\Src\mbedtls\xtea.c
+dobot\xtea.o: ../Inc/mbedtls/config.h
+dobot\xtea.o: ../Inc/mbedtls/check_config.h
+dobot\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\xtea.o: ../Inc/mbedtls/xtea.h
+dobot\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\xtea.o: ../Inc/mbedtls/platform_util.h
+dobot\xtea.o: ../Inc/mbedtls/platform_time.h
+dobot\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\xtea.o: ../Inc/mbedtls/platform.h
+dobot\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\xtea.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

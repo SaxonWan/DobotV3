@@ -1,0 +1,17 @@
+dobot\gcm.o: ..\Src\mbedtls\gcm.c
+dobot\gcm.o: ../Inc/mbedtls/config.h
+dobot\gcm.o: ../Inc/mbedtls/check_config.h
+dobot\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\gcm.o: ../Inc/mbedtls/gcm.h
+dobot\gcm.o: ../Inc/mbedtls/cipher.h
+dobot\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\gcm.o: ../Inc/mbedtls/platform_util.h
+dobot\gcm.o: ../Inc/mbedtls/platform_time.h
+dobot\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\gcm.o: ../Inc/mbedtls/aesni.h
+dobot\gcm.o: ../Inc/mbedtls/aes.h
+dobot\gcm.o: ../Inc/mbedtls/platform.h
+dobot\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\gcm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

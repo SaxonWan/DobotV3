@@ -1,0 +1,14 @@
+dobot\camellia.o: ..\Src\mbedtls\camellia.c
+dobot\camellia.o: ../Inc/mbedtls/config.h
+dobot\camellia.o: ../Inc/mbedtls/check_config.h
+dobot\camellia.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\camellia.o: ../Inc/mbedtls/camellia.h
+dobot\camellia.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\camellia.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\camellia.o: ../Inc/mbedtls/platform_util.h
+dobot\camellia.o: ../Inc/mbedtls/platform_time.h
+dobot\camellia.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\camellia.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\camellia.o: ../Inc/mbedtls/platform.h
+dobot\camellia.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\camellia.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

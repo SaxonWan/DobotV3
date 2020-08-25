@@ -1,0 +1,10 @@
+dobot\sha1.o: ..\Src\mbedtls\sha1.c
+dobot\sha1.o: ../Inc/mbedtls/config.h
+dobot\sha1.o: ../Inc/mbedtls/check_config.h
+dobot\sha1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\sha1.o: ../Inc/mbedtls/sha1.h
+dobot\sha1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\sha1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\sha1.o: ../Inc/mbedtls/platform_util.h
+dobot\sha1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+dobot\sha1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

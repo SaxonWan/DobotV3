@@ -1,0 +1,13 @@
+dobot\ecp_curves.o: ..\Src\mbedtls\ecp_curves.c
+dobot\ecp_curves.o: ../Inc/mbedtls/config.h
+dobot\ecp_curves.o: ../Inc/mbedtls/check_config.h
+dobot\ecp_curves.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\ecp_curves.o: ../Inc/mbedtls/ecp.h
+dobot\ecp_curves.o: ../Inc/mbedtls/bignum.h
+dobot\ecp_curves.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\ecp_curves.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\ecp_curves.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\ecp_curves.o: ../Inc/mbedtls/platform_util.h
+dobot\ecp_curves.o: ../Inc/mbedtls/platform_time.h
+dobot\ecp_curves.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+dobot\ecp_curves.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

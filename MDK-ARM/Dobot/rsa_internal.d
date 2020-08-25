@@ -1,0 +1,11 @@
+dobot\rsa_internal.o: ..\Src\mbedtls\rsa_internal.c
+dobot\rsa_internal.o: ../Inc/mbedtls/config.h
+dobot\rsa_internal.o: ../Inc/mbedtls/check_config.h
+dobot\rsa_internal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\rsa_internal.o: ../Inc/mbedtls/rsa.h
+dobot\rsa_internal.o: ../Inc/mbedtls/bignum.h
+dobot\rsa_internal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\rsa_internal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\rsa_internal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dobot\rsa_internal.o: ../Inc/mbedtls/md.h
+dobot\rsa_internal.o: ../Inc/mbedtls/rsa_internal.h

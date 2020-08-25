@@ -1,0 +1,14 @@
+#ifndef __CONFIGURATION_H
+#define __CONFIGURATION_H
+
+#define wifi_ssid 		"Saxon"
+#define wifi_psw		"abcd1234"
+
+#define productKey		""
+#define deviceName		""
+#define deviceSecret	""
+
+#define clientIDstr		"Saxon"
+#define timestamp		"999"
+
+#endif

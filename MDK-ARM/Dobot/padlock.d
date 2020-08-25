@@ -1,0 +1,9 @@
+dobot\padlock.o: ..\Src\mbedtls\padlock.c
+dobot\padlock.o: ../Inc/mbedtls/config.h
+dobot\padlock.o: ../Inc/mbedtls/check_config.h
+dobot\padlock.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+dobot\padlock.o: ../Inc/mbedtls/padlock.h
+dobot\padlock.o: ../Inc/mbedtls/aes.h
+dobot\padlock.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+dobot\padlock.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dobot\padlock.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
