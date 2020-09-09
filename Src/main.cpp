@@ -346,9 +346,10 @@ void SystemClock_Config(void)
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {	
-	if(GPIO_Pin == GPIO_PIN_0) stop_flag = 5;
+	if(GPIO_Pin == GPIO_PIN_0) stop_flag = 100;
 }
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)	//10ms??????§Ø?
+//TODO:ï¿½ï¿½ï¿½ë´«ï¿½Í´ï¿½ï¿½ï¿½Ê±
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)	//10ms??????ï¿½ï¿½?
 {
 	int i;
 	if(htim == &htim4)

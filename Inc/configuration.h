@@ -2,10 +2,10 @@
 #define __CONFIGURATION_H
 
 
-#define PUBLIC_DEMO 1
+#define PUBLIC_DEMO 0
 #if PUBLIC_DEMO
-#define wifi_ssid "Terabits_2.4G"
-#define wifi_psw "terabits"
+#define wifi_ssid "HUAWEI-B315-19B6"
+#define wifi_psw "41072578"
 
 #define productKey		"a1C4lmXijYE"
 #define deviceName		"test_gongyejiqiren"

@@ -11,7 +11,7 @@ I (..\Src\complatform\../ComPlatform/ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\../ComPlatform/RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (..\Src\complatform\../ComPlatform/ProtocolID.h)(0x581007BA)
-F (..\Src\main.cpp)(0x5F44A51F)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\main.o --omf_browse dobot\main.crf --depend dobot\main.d)
+F (..\Src\main.cpp)(0x5F5874D5)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\main.o --omf_browse dobot\main.crf --depend dobot\main.d)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
@@ -54,7 +54,7 @@ I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F44A904)
+I (../Inc/configuration.h)(0x5F587066)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
@@ -182,7 +182,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-I (../Inc/configuration.h)(0x5F44A904)
+I (../Inc/configuration.h)(0x5F587066)
 I (../Inc/usart.h)(0x5F44A592)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (..\Src\complatform\Protocol.h)(0x581007BA)
@@ -270,7 +270,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Src/tim.c)(0x5F448E0D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\tim.o --omf_browse dobot\tim.crf --depend dobot\tim.d)
+F (../Src/tim.c)(0x5F58774E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\tim.o --omf_browse dobot\tim.crf --depend dobot\tim.d)
 I (../Inc/tim.h)(0x5DD5F440)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
@@ -349,7 +349,7 @@ I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F44A904)
+I (../Inc/configuration.h)(0x5F587066)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
@@ -401,7 +401,7 @@ I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F44A904)
+I (../Inc/configuration.h)(0x5F587066)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
@@ -489,7 +489,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
 I (../Inc/usart.h)(0x5F44A592)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F44A904)
+I (../Inc/configuration.h)(0x5F587066)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
@@ -1236,7 +1236,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/usart.h)(0x5F44A592)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F44A904)
+I (../Inc/configuration.h)(0x5F587066)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
 I (..\Inc\mbedtls\config.h)(0x5DB1501C)
@@ -1329,7 +1329,7 @@ I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F44A904)
+I (../Inc/configuration.h)(0x5F587066)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/tim.h)(0x5DD5F440)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
