@@ -49,9 +49,9 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
-#define Motor_Start 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_11, GPIO_PIN_RESET)
-#define Motor_Stop 			HAL_GPIO_WritePin(GPIOB, GPIO_PIN_11, GPIO_PIN_SET)
-#define Motor_Forward		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, GPIO_PIN_RESET)
+#define Motor_Start 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET)
+#define Motor_Stop 			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET)
+#define Motor_Forward		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_RESET)
 //#define Motor_Backward	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, GPIO_PIN_RESET)
 
 /* USER CODE END PD */
@@ -139,13 +139,13 @@ int main(void)
   MX_UART4_Init();
   MX_USART2_UART_Init();
   MX_USART3_UART_Init();
-  MX_TIM4_Init();
+  MX_TIM2_Init();
   MX_TIM3_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-	initial();
+  initial();
   /* USER CODE END 2 */
-
+	
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -196,7 +196,7 @@ int main(void)
 					printf("[INFO]Send Camera Request\r\n"); 
 					
 					camera_request(INid);
-										HAL_UART_Receive_IT(&huart1,&uart1rbuffer,1);
+										HAL_UART_Receive_IT(&huart4,&uart1rbuffer,1);
 					HAL_Delay(3000);
 				}
 			
@@ -240,12 +240,12 @@ int main(void)
 				if(INred == 0)
 				{
 					grip_RS(supply_red);
-					supply_red--;
+					//supply_red--;
 				}
 				if(INgreen == 0)
 				{
 					grip_GS(supply_green);
-					supply_green--;
+					//supply_green--;
 				}
 				json_status(INid,5,supply_red,supply_green,supply_chops,INred,INgreen,INchops);
 				if(status_pub_set()) pub_data(status_json_buffer);
@@ -352,7 +352,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)	//10ms??????��?
 {
 	int i;
-	if(htim == &htim4)
+	if(htim == &htim2)
 	{
 		if(stop_flag == 0) Motor_Stop; 
 		if(stop_flag > 0) stop_flag--;
@@ -375,7 +375,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)	//10ms??????��?
 							root_uart1["ack"] = 1;
 							for(i = 0;i < MAX_LEN;i++)uart1_transmit_buffer[i] = '\0';
 							root_uart1.printTo(uart1_transmit_buffer,MAX_LEN);
-							HAL_UART_Transmit(&huart1,(uint8_t*)uart1_transmit_buffer,strlen(uart1_transmit_buffer),10);
+							HAL_UART_Transmit(&huart4,(uint8_t*)uart1_transmit_buffer,strlen(uart1_transmit_buffer),10);
 							INred = root_uart1["red"];
 							INgreen = root_uart1["green"];
 							INchops = root_uart1["chops"];
@@ -435,8 +435,8 @@ void initial(void)
 	INid = 0;
 	close_cam_receive;
 	close_service_receive;
-	HAL_TIM_Base_Start_IT(&htim4);
-	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_2);
+	HAL_TIM_Base_Start_IT(&htim2);
+	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_1);
 	HAL_UART_Receive_IT(&huart4,&uart4rbuffer,1);
 	HAL_UART_Receive_IT(&huart1,&uart1rbuffer,1);
 	HAL_UART_Receive_IT(&huart3,&uart3rbuffer,1);
@@ -513,7 +513,7 @@ void camera_request(int id)
 	for(i = 0;i < MAX_LEN;i++)camera_request_buffer[i] = '\0';
 	root_uart1.printTo(camera_request_buffer,MAX_LEN);
 	strcat(camera_request_buffer,"\r");
-	HAL_UART_Transmit(&huart1,(uint8_t *)camera_request_buffer,strlen(camera_request_buffer),10);
+	HAL_UART_Transmit(&huart4,(uint8_t *)camera_request_buffer,strlen(camera_request_buffer),10);
 	jsonBuffer_uart1.clear();
 }
 

@@ -68,7 +68,7 @@ void ProtocolProcess(void)
     Message message;
     MessageProcess(&gUART4ProtocolHandler);
     if (RingBufferGetCount(&gUART4ProtocolHandler.txRawByteQueue)) {
-		HAL_UART_TxCpltCallback(&huart4);
+		HAL_UART_TxCpltCallback(&huart1);
     }
 
     if(MessageRead(&gUART4ProtocolHandler, &message)==ProtocolNoError)

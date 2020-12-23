@@ -1,6 +1,6 @@
 Dependencies for Project 'Dobot', Target 'Dobot': (DO NOT MODIFY !)
 F (startup_stm32l476xx.s)(0x5DD5F444)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1"--list startup_stm32l476xx.lst --xref -o dobot\startup_stm32l476xx.o --depend dobot\startup_stm32l476xx.d)
-F (..\Src\command.cpp)(0x5D9ECEF0)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\command.o --omf_browse dobot\command.crf --depend dobot\command.d)
+F (..\Src\command.cpp)(0x5D9ECEF0)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\command.o --omf_browse dobot\command.crf --depend dobot\command.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (..\Src\command.h)(0x5D9EDB16)
@@ -11,7 +11,7 @@ I (..\Src\complatform\../ComPlatform/ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\../ComPlatform/RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (..\Src\complatform\../ComPlatform/ProtocolID.h)(0x581007BA)
-F (..\Src\main.cpp)(0x5F5874D5)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\main.o --omf_browse dobot\main.crf --depend dobot\main.d)
+F (..\Src\main.cpp)(0x5FE33132)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\main.o --omf_browse dobot\main.crf --depend dobot\main.d)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
@@ -54,7 +54,7 @@ I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F587066)
+I (../Inc/configuration.h)(0x5FC99E37)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
@@ -146,7 +146,7 @@ I (..\Src\ArduinoJson/Polyfills/isInteger.hpp)(0x5C468BEA)
 I (..\Src\ArduinoJson/Polyfills/parseFloat.hpp)(0x5C468BEA)
 I (..\Src\ArduinoJson/Polyfills/parseInteger.hpp)(0x5C468BEA)
 I (..\Src\ArduinoJson/Serialization/JsonSerializerImpl.hpp)(0x5C468BEA)
-F (..\Src\emw3080.c)(0x5DD6C2F3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\emw3080.o --omf_browse dobot\emw3080.crf --depend dobot\emw3080.d)
+F (..\Src\emw3080.c)(0x5DD6C2F3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\emw3080.o --omf_browse dobot\emw3080.crf --depend dobot\emw3080.d)
 I (../Inc/emw3080.h)(0x5DD6AF86)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
@@ -182,7 +182,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-I (../Inc/configuration.h)(0x5F587066)
+I (../Inc/configuration.h)(0x5FC99E37)
 I (../Inc/usart.h)(0x5F44A592)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (..\Src\complatform\Protocol.h)(0x581007BA)
@@ -197,7 +197,7 @@ I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
 I (..\Inc\mbedtls\config.h)(0x5DB1501C)
 I (..\Inc\mbedtls\check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
-F (..\Src\Motor.c)(0x5F448DC8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\motor.o --omf_browse dobot\motor.crf --depend dobot\motor.d)
+F (..\Src\Motor.c)(0x5F448DC8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\motor.o --omf_browse dobot\motor.crf --depend dobot\motor.d)
 I (../Inc/gpio.h)(0x5DD5F43F)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
@@ -234,7 +234,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
 I (../Inc/motor.h)(0x5F44882C)
-F (../Src/gpio.c)(0x5F44A41F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\gpio.o --omf_browse dobot\gpio.crf --depend dobot\gpio.d)
+F (../Src/gpio.c)(0x5FE31C89)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\gpio.o --omf_browse dobot\gpio.crf --depend dobot\gpio.d)
 I (../Inc/gpio.h)(0x5DD5F43F)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
@@ -270,7 +270,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Src/tim.c)(0x5F58774E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\tim.o --omf_browse dobot\tim.crf --depend dobot\tim.d)
+F (../Src/tim.c)(0x5FE3318B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\tim.o --omf_browse dobot\tim.crf --depend dobot\tim.d)
 I (../Inc/tim.h)(0x5DD5F440)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
@@ -306,7 +306,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Src/usart.c)(0x5DD6AF76)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\usart.o --omf_browse dobot\usart.crf --depend dobot\usart.d)
+F (../Src/usart.c)(0x5FE31A31)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\usart.o --omf_browse dobot\usart.crf --depend dobot\usart.d)
 I (../Inc/usart.h)(0x5F44A592)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
@@ -349,7 +349,7 @@ I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F587066)
+I (../Inc/configuration.h)(0x5FC99E37)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
@@ -357,7 +357,7 @@ I (..\Inc\mbedtls\config.h)(0x5DB1501C)
 I (..\Inc\mbedtls\check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
 I (../Inc/tim.h)(0x5DD5F440)
-F (../Src/stm32l4xx_it.c)(0x5F44A439)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_it.o --omf_browse dobot\stm32l4xx_it.crf --depend dobot\stm32l4xx_it.d)
+F (../Src/stm32l4xx_it.c)(0x5F44A439)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_it.o --omf_browse dobot\stm32l4xx_it.crf --depend dobot\stm32l4xx_it.d)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
@@ -401,7 +401,7 @@ I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F587066)
+I (../Inc/configuration.h)(0x5FC99E37)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
@@ -409,7 +409,7 @@ I (..\Inc\mbedtls\config.h)(0x5DB1501C)
 I (..\Inc\mbedtls\check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
 I (../Inc/tim.h)(0x5DD5F440)
-F (../Src/stm32l4xx_hal_msp.c)(0x5DD5F441)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_msp.o --omf_browse dobot\stm32l4xx_hal_msp.crf --depend dobot\stm32l4xx_hal_msp.d)
+F (../Src/stm32l4xx_hal_msp.c)(0x5DD5F441)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_msp.o --omf_browse dobot\stm32l4xx_hal_msp.crf --depend dobot\stm32l4xx_hal_msp.d)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
@@ -444,7 +444,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (..\Src\dobot.cpp)(0x5DD69721)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\dobot.o --omf_browse dobot\dobot.crf --depend dobot\dobot.d)
+F (..\Src\dobot.cpp)(0x5DD69721)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\dobot.o --omf_browse dobot\dobot.crf --depend dobot\dobot.d)
 I (../Inc/dobot.h)(0x5DD69743)
 I (..\Src\complatform\Protocol.h)(0x581007BA)
 I (..\Src\complatform\Message.h)(0x581007BA)
@@ -489,7 +489,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
 I (../Inc/usart.h)(0x5F44A592)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F587066)
+I (../Inc/configuration.h)(0x5FC99E37)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
@@ -497,7 +497,7 @@ I (..\Inc\mbedtls\config.h)(0x5DB1501C)
 I (..\Inc\mbedtls\check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
 I (../Inc/tim.h)(0x5DD5F440)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_tim.o --omf_browse dobot\stm32l4xx_hal_tim.crf --depend dobot\stm32l4xx_hal_tim.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_tim.o --omf_browse dobot\stm32l4xx_hal_tim.crf --depend dobot\stm32l4xx_hal_tim.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -531,7 +531,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_tim_ex.o --omf_browse dobot\stm32l4xx_hal_tim_ex.crf --depend dobot\stm32l4xx_hal_tim_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_tim_ex.o --omf_browse dobot\stm32l4xx_hal_tim_ex.crf --depend dobot\stm32l4xx_hal_tim_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -565,7 +565,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_uart.o --omf_browse dobot\stm32l4xx_hal_uart.crf --depend dobot\stm32l4xx_hal_uart.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_uart.o --omf_browse dobot\stm32l4xx_hal_uart.crf --depend dobot\stm32l4xx_hal_uart.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -599,7 +599,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_uart_ex.o --omf_browse dobot\stm32l4xx_hal_uart_ex.crf --depend dobot\stm32l4xx_hal_uart_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_uart_ex.o --omf_browse dobot\stm32l4xx_hal_uart_ex.crf --depend dobot\stm32l4xx_hal_uart_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -633,7 +633,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c)(0x5DBCEADC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal.o --omf_browse dobot\stm32l4xx_hal.crf --depend dobot\stm32l4xx_hal.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c)(0x5DBCEADC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal.o --omf_browse dobot\stm32l4xx_hal.crf --depend dobot\stm32l4xx_hal.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -667,7 +667,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_i2c.o --omf_browse dobot\stm32l4xx_hal_i2c.crf --depend dobot\stm32l4xx_hal_i2c.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_i2c.o --omf_browse dobot\stm32l4xx_hal_i2c.crf --depend dobot\stm32l4xx_hal_i2c.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -701,7 +701,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_i2c_ex.o --omf_browse dobot\stm32l4xx_hal_i2c_ex.crf --depend dobot\stm32l4xx_hal_i2c_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_i2c_ex.o --omf_browse dobot\stm32l4xx_hal_i2c_ex.crf --depend dobot\stm32l4xx_hal_i2c_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -735,7 +735,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_rcc.o --omf_browse dobot\stm32l4xx_hal_rcc.crf --depend dobot\stm32l4xx_hal_rcc.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_rcc.o --omf_browse dobot\stm32l4xx_hal_rcc.crf --depend dobot\stm32l4xx_hal_rcc.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -769,7 +769,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_rcc_ex.o --omf_browse dobot\stm32l4xx_hal_rcc_ex.crf --depend dobot\stm32l4xx_hal_rcc_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_rcc_ex.o --omf_browse dobot\stm32l4xx_hal_rcc_ex.crf --depend dobot\stm32l4xx_hal_rcc_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -803,7 +803,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_flash.o --omf_browse dobot\stm32l4xx_hal_flash.crf --depend dobot\stm32l4xx_hal_flash.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_flash.o --omf_browse dobot\stm32l4xx_hal_flash.crf --depend dobot\stm32l4xx_hal_flash.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -837,7 +837,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_flash_ex.o --omf_browse dobot\stm32l4xx_hal_flash_ex.crf --depend dobot\stm32l4xx_hal_flash_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_flash_ex.o --omf_browse dobot\stm32l4xx_hal_flash_ex.crf --depend dobot\stm32l4xx_hal_flash_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -871,7 +871,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_flash_ramfunc.o --omf_browse dobot\stm32l4xx_hal_flash_ramfunc.crf --depend dobot\stm32l4xx_hal_flash_ramfunc.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_flash_ramfunc.o --omf_browse dobot\stm32l4xx_hal_flash_ramfunc.crf --depend dobot\stm32l4xx_hal_flash_ramfunc.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -905,7 +905,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_gpio.o --omf_browse dobot\stm32l4xx_hal_gpio.crf --depend dobot\stm32l4xx_hal_gpio.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_gpio.o --omf_browse dobot\stm32l4xx_hal_gpio.crf --depend dobot\stm32l4xx_hal_gpio.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -939,7 +939,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_dma.o --omf_browse dobot\stm32l4xx_hal_dma.crf --depend dobot\stm32l4xx_hal_dma.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_dma.o --omf_browse dobot\stm32l4xx_hal_dma.crf --depend dobot\stm32l4xx_hal_dma.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -973,7 +973,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_dma_ex.o --omf_browse dobot\stm32l4xx_hal_dma_ex.crf --depend dobot\stm32l4xx_hal_dma_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_dma_ex.o --omf_browse dobot\stm32l4xx_hal_dma_ex.crf --depend dobot\stm32l4xx_hal_dma_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -1007,7 +1007,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_pwr.o --omf_browse dobot\stm32l4xx_hal_pwr.crf --depend dobot\stm32l4xx_hal_pwr.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_pwr.o --omf_browse dobot\stm32l4xx_hal_pwr.crf --depend dobot\stm32l4xx_hal_pwr.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -1041,7 +1041,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_pwr_ex.o --omf_browse dobot\stm32l4xx_hal_pwr_ex.crf --depend dobot\stm32l4xx_hal_pwr_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_pwr_ex.o --omf_browse dobot\stm32l4xx_hal_pwr_ex.crf --depend dobot\stm32l4xx_hal_pwr_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -1075,7 +1075,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c)(0x5DBCEADC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_cortex.o --omf_browse dobot\stm32l4xx_hal_cortex.crf --depend dobot\stm32l4xx_hal_cortex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c)(0x5DBCEADC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_cortex.o --omf_browse dobot\stm32l4xx_hal_cortex.crf --depend dobot\stm32l4xx_hal_cortex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -1109,7 +1109,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_exti.o --omf_browse dobot\stm32l4xx_hal_exti.crf --depend dobot\stm32l4xx_hal_exti.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c)(0x5DBCEADD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\stm32l4xx_hal_exti.o --omf_browse dobot\stm32l4xx_hal_exti.crf --depend dobot\stm32l4xx_hal_exti.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -1143,7 +1143,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (../Src/system_stm32l4xx.c)(0x5DA5A003)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\system_stm32l4xx.o --omf_browse dobot\system_stm32l4xx.crf --depend dobot\system_stm32l4xx.d)
+F (../Src/system_stm32l4xx.c)(0x5DA5A003)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\system_stm32l4xx.o --omf_browse dobot\system_stm32l4xx.crf --depend dobot\system_stm32l4xx.d)
 I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5DBCEAAD)
 I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5DBCEAAC)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x5DBCEADB)
@@ -1177,7 +1177,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5DBCEADC)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5DBCEADC)
-F (..\Src\complatform\Message.cpp)(0x5DC3C1EB)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\message.o --omf_browse dobot\message.crf --depend dobot\message.d)
+F (..\Src\complatform\Message.cpp)(0x5DC3C1EB)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\message.o --omf_browse dobot\message.crf --depend dobot\message.d)
 I (..\Src\complatform\Message.h)(0x581007BA)
 I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
@@ -1185,14 +1185,14 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (..\Src\complatform\Packet.h)(0x581007BA)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
-F (..\Src\complatform\Packet.cpp)(0x5DD6BC9A)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\packet.o --omf_browse dobot\packet.crf --depend dobot\packet.d)
+F (..\Src\complatform\Packet.cpp)(0x5DD6BC9A)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\packet.o --omf_browse dobot\packet.crf --depend dobot\packet.d)
 I (..\Src\complatform\Packet.h)(0x581007BA)
 I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
-F (..\Src\complatform\Protocol.cpp)(0x5DD6BB7F)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\protocol.o --omf_browse dobot\protocol.crf --depend dobot\protocol.d)
+F (..\Src\complatform\Protocol.cpp)(0x5FE31628)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\protocol.o --omf_browse dobot\protocol.crf --depend dobot\protocol.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5DBCEADC)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5DD5F441)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5DBCEADC)
@@ -1236,26 +1236,26 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/usart.h)(0x5F44A592)
 I (../Inc/main.h)(0x5DD5F441)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F587066)
+I (../Inc/configuration.h)(0x5FC99E37)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)
 I (..\Inc\mbedtls\config.h)(0x5DB1501C)
 I (..\Inc\mbedtls\check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
 I (../Inc/tim.h)(0x5DD5F440)
-F (..\Src\complatform\RingBuffer.cpp)(0x581007BA)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\ringbuffer.o --omf_browse dobot\ringbuffer.crf --depend dobot\ringbuffer.d)
+F (..\Src\complatform\RingBuffer.cpp)(0x581007BA)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\ringbuffer.o --omf_browse dobot\ringbuffer.crf --depend dobot\ringbuffer.d)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
-F (..\Src\mbedtls\platform_util.c)(0x5DC38C24)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\platform_util.o --omf_browse dobot\platform_util.crf --depend dobot\platform_util.d)
+F (..\Src\mbedtls\platform_util.c)(0x5DC38C24)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\platform_util.o --omf_browse dobot\platform_util.crf --depend dobot\platform_util.d)
 I (../Inc/mbedtls/config.h)(0x5DB1501C)
 I (../Inc/mbedtls/check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
 I (../Inc/mbedtls/platform_util.h)(0x5CEDE9DE)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
-F (..\Src\mbedtls\md_wrap.c)(0x5CEDE9DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\md_wrap.o --omf_browse dobot\md_wrap.crf --depend dobot\md_wrap.d)
+F (..\Src\mbedtls\md_wrap.c)(0x5CEDE9DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\md_wrap.o --omf_browse dobot\md_wrap.crf --depend dobot\md_wrap.d)
 I (../Inc/mbedtls/config.h)(0x5DB1501C)
 I (../Inc/mbedtls/check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
@@ -1265,7 +1265,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
 I (../Inc/mbedtls/sha1.h)(0x5CEDE9DE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
-F (..\Src\mbedtls\md.c)(0x5DC38B61)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\md.o --omf_browse dobot\md.crf --depend dobot\md.d)
+F (..\Src\mbedtls\md.c)(0x5DC38B61)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\md.o --omf_browse dobot\md.crf --depend dobot\md.d)
 I (../Inc/mbedtls/config.h)(0x5DB1501C)
 I (../Inc/mbedtls/check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
@@ -1275,7 +1275,7 @@ I (../Inc/mbedtls/md_internal.h)(0x5CEDE9DE)
 I (../Inc/mbedtls/platform_util.h)(0x5CEDE9DE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
-F (..\Src\mbedtls\sha1.c)(0x5CEDE9DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\sha1.o --omf_browse dobot\sha1.crf --depend dobot\sha1.d)
+F (..\Src\mbedtls\sha1.c)(0x5CEDE9DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\sha1.o --omf_browse dobot\sha1.crf --depend dobot\sha1.d)
 I (../Inc/mbedtls/config.h)(0x5DB1501C)
 I (../Inc/mbedtls/check_config.h)(0x5DC38BC6)
 I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
@@ -1285,7 +1285,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
 I (../Inc/mbedtls/platform_util.h)(0x5CEDE9DE)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
-F (..\Src\hmac_sha1.c)(0x5DB95EDE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\hmac_sha1.o --omf_browse dobot\hmac_sha1.crf --depend dobot\hmac_sha1.d)
+F (..\Src\hmac_sha1.c)(0x5DB95EDE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\Src\complatform -I ..\Inc\mbedtls -I ..\Inc -I ..\Src\JSON-I.\RTE\_Dobot-IC:\Users\MI\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\MI\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o dobot\hmac_sha1.o --omf_browse dobot\hmac_sha1.crf --depend dobot\hmac_sha1.d)
 I (../Inc/hmac_sha1.h)(0x5DB90840)
 I (../Inc/usart.h)(0x5F44A592)
 I (../Inc/main.h)(0x5DD5F441)
@@ -1329,7 +1329,7 @@ I (..\Src\complatform\ProtocolDef.h)(0x581007BA)
 I (..\Src\complatform\RingBuffer.h)(0x581028D0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
 I (../Inc/emw3080.h)(0x5DD6AF86)
-I (../Inc/configuration.h)(0x5F587066)
+I (../Inc/configuration.h)(0x5FC99E37)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (../Inc/tim.h)(0x5DD5F440)
 I (..\Inc\mbedtls\md.h)(0x5DB16CFF)

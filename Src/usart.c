@@ -142,17 +142,17 @@ void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
     /* UART4 clock enable */
     __HAL_RCC_UART4_CLK_ENABLE();
   
-    __HAL_RCC_GPIOC_CLK_ENABLE();
+    __HAL_RCC_GPIOA_CLK_ENABLE();
     /**UART4 GPIO Configuration    
     PC10     ------> UART4_TX
     PC11     ------> UART4_RX 
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_10|GPIO_PIN_11;
+    GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
     GPIO_InitStruct.Alternate = GPIO_AF8_UART4;
-    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
     /* UART4 interrupt Init */
     HAL_NVIC_SetPriority(UART4_IRQn, 0, 0);
@@ -339,7 +339,7 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 		void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 		{
 			int i;
-			if(huart == &huart1)
+			if(huart == &huart4)
 			{
 				if(tim4uart1 > 300) return;
 				if(tim4uart1 > 200) 
@@ -351,14 +351,14 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 				uart1_receive_len ++;
 				if(uart1_receive_len >= MAX_LEN)uart1_receive_len = 0;
 				tim4uart1 = 200;
-				HAL_UART_Receive_IT(&huart1,&uart1rbuffer,1);
+				HAL_UART_Receive_IT(&huart4,&uart1rbuffer,1);
 			}
 			
-			if(huart == &huart4)
+			if(huart == &huart1)
 			{
 				if (RingBufferIsFull(&gUART4ProtocolHandler.rxRawByteQueue) == false) 
 					RingBufferEnqueue(&gUART4ProtocolHandler.rxRawByteQueue, &uart4rbuffer);
-				HAL_UART_Receive_IT(&huart4,&uart4rbuffer,1);
+				HAL_UART_Receive_IT(&huart1,&uart4rbuffer,1);
 			}
 			
 			if(huart == &huart3)
@@ -386,12 +386,12 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 
 		void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
 		{
-			if(huart == &huart4)
+			if(huart == &huart1)
 			{
 				if (RingBufferIsEmpty(&gUART4ProtocolHandler.txRawByteQueue) == false) 
 				{
 					RingBufferDequeue(&gUART4ProtocolHandler.txRawByteQueue, &uart4buffer);
-					HAL_UART_Transmit_IT(&huart4,&uart4buffer,1);
+					HAL_UART_Transmit_IT(&huart1,&uart4buffer,1);
 				};
 			}
 			

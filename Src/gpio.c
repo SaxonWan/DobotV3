@@ -21,10 +21,10 @@
 #include "gpio.h"
 /* USER CODE BEGIN 0 */
 
-#define DIR_Pin GPIO_PIN_1
-#define DIR_GPIO_Port GPIOC
-#define EN_Pin GPIO_PIN_11
-#define EN_GPIO_Port GPIOB
+#define DIR_Pin GPIO_PIN_7
+#define DIR_GPIO_Port GPIOA
+#define EN_Pin GPIO_PIN_5
+#define EN_GPIO_Port GPIOA
 
 /* USER CODE END 0 */
 
@@ -84,7 +84,7 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : PtPin */
   GPIO_InitStruct.Pin = DIR_Pin;
